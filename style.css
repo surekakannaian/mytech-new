@@ -374,20 +374,21 @@ width: 40px;
     .search{
         margin-left:15%}
     .search input{
-        width: 60%;
+        width: 65%;
     }
     nav{
         font-size: 13px;
+        margin-left:15%;
     }
     .description h2{
         font-size: 20px;
     }
     .home .login{
         margin-left:5%;
-        margin-top: 10%;
+        margin-top: 20%;
         background-color: black;
         padding: 3% 2%;
-        border-radius: 8%;
+        border-radius: 15%;
         color: white;
         text-align: center;
         height: 50vh;
@@ -428,7 +429,7 @@ width: 40px;
          
         }
     .form{
-        margin-top: 8%;}
+        margin-top: 18%;}
     nav a{
     margin-left:15%;
 }
