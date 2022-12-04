@@ -51,6 +51,8 @@ div button{
     width: 30%;
     margin-left: 8%;
 }
+.description h2{
+    font-size:30px;}
 .home .login{
     margin-left:20%;
     margin-top: 10%;
