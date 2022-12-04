@@ -365,16 +365,13 @@ width: 40px;
      
 }
 @media screen and (max-width:480px){
-    header{
-        justify-content:space-between;
-    }
     header h1{
-        font-size: 15px;
+        font-size: 18px;
     }
     .search{
         margin-left:15%}
     .search input{
-        width: 65%;
+        width: 100%;
     }
     nav{
         font-size: 13px;
@@ -388,7 +385,7 @@ width: 40px;
         margin-top: 20%;
         background-color: black;
         padding: 3% 2%;
-        border-radius: 15%;
+        border-radius:3%;
         color: white;
         text-align: center;
         height: 50vh;
