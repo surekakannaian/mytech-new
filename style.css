@@ -1,11 +1,13 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+
 }
 html{
-    scroll-padding-top: 6rem;
+    scroll-padding-top: 5.4rem;
 }
 header{
     background-color: black;
@@ -28,7 +30,7 @@ nav a{
     margin-left:7%;
 }
 nav{
-    width: 45%;
+    width: 48%;
 }
 nav a:hover{
     color:rgb(230, 48, 139) ;
@@ -52,7 +54,8 @@ div button{
     margin-left: 8%;
 }
 .description h2{
-    font-size:30px;}
+    font-size: 30px;
+}
 .home .login{
     margin-left:20%;
     margin-top: 10%;
@@ -61,7 +64,7 @@ div button{
     border-radius: 5%;
     color: white;
     text-align: center;
-    height: 50vh;
+    height: 60vh;
 }
 .home .description p{
     margin-top: 5%;
@@ -210,7 +213,7 @@ color: rgb(240, 72, 156);
     border-radius: 12px;
     position: absolute;
     margin-left: 30%;
-
+ 
 }
 .text button{
     border: none;
@@ -225,8 +228,8 @@ color: rgb(240, 72, 156);
     display: flex;
     background-color: antiquewhite;
     margin-top: 3%;
-    height: 65vh;
     text-align: center;
+    padding-bottom: 2%;
 }
 .contact .info{
     margin-left: 15%;
@@ -255,7 +258,7 @@ hr{
     color:rgb(255, 0, 119) ;
 }
 .form input{
-    margin-top: 3%;
+
     padding: 2% 30%;
     padding-left: 3px;
     background-color: rgb(200, 200, 211);
@@ -348,54 +351,34 @@ width: 40px;
     }
 }
 
-@media screen and (max-width:600px) {
-  
-   
-    .row2 h1{
-        margin-top: 100%;
-    }
-   .services .card1{
-    width: 35%;
-   
-   }
-.project .text{
-    width: 40%;
-    margin-top: 20%;
-}
      
-}
-@media screen and (max-width:480px){
+
+@media screen and (max-width:600px){
     header h1{
-        font-size: 18px;
+        font-size: 15px;
     }
-    .search{
-        margin-left:15%}
     .search input{
-        width: 100%;
+        width: 80%;
+        margin-left: 3%;
     }
     nav{
+        width: 90%;
         font-size: 13px;
-        margin-left:15%;
+        margin-left: 3%;
     }
     .description h2{
         font-size: 20px;
     }
     .home .login{
-        margin-left:5%;
-        margin-top: 20%;
-        background-color: black;
-        padding: 3% 2%;
-        border-radius:3%;
-        color: white;
-        text-align: center;
-        height: 50vh;
-        width: 200px;
+       
+        height: 65vh;
+       
     }
     .services .card1{
       font-size: 10px;
     }
     .project img{
-        height: 600px;
+        height: 350px;
         border-radius: 12px;
         width: 50%;
         margin-left: 10%;
@@ -403,9 +386,9 @@ width: 40px;
     }
     .project .text{
         width: 50%;
-        margin-top: 15%;
+        margin-top: 10%;
         background-color: white;
-        height: 55%;
+        height: 50%;
         border-radius: 12px;
         position: absolute;
         margin-left: 15%;
@@ -418,17 +401,83 @@ width: 40px;
         }
         .form input{
             margin-top: 3%;
-            padding: 2% 9%;
+            padding: 2% 15%;
     
         }
         .form .first{
-            padding: 4% 9%;
+            padding: 4% 15%;
          
         }
-    .form{
-        margin-top: 18%;}
-    nav a{
-    margin-left:15%;
+        .animation{
+            position: fixed;
+            bottom:100px ;
+            right: 3%;
+        
+        }
+        
 }
+@media screen and (max-width:480px){
+    header h1{
+        font-size: 15px;
+    }
+    .search input{
+        width: 80%;
+        margin-left: 3%;
+    }
+    nav{
+        width: 90%;
+        font-size: 13px;
+        margin-left: 3%;
+    }
+    .description h2{
+        font-size: 20px;
+    }
+    .home .login{
+       
+        height: 65vh;
+       
+    }
+    .services .card1{
+      font-size: 10px;
+    }
+    .project img{
+        height: 350px;
+        border-radius: 12px;
+        width: 50%;
+        margin-left: 10%;
+        margin-top: 6%;
+    }
+    .project .text{
+        width: 50%;
+        margin-top: 10%;
+        background-color: white;
+        height: 50%;
+        border-radius: 12px;
+        position: absolute;
+        margin-left: 15%;
+    
+    }
+    .contact .info{
+        margin-left: 5%;}
+        .form{
+            margin-left: 2%;
+        }
+        .form input{
+            margin-top: 3%;
+            padding: 2% 15%;
+    
+        }
+        .form .first{
+            padding: 4% 15%;
+         
+        }
+        .animation{
+            position: fixed;
+            bottom:100px ;
+            right: 3%;
+        
+        }
+        
 }
+
 
